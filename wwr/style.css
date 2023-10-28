@@ -155,9 +155,9 @@ section h2 {
   margin: 0;
 }
 
-.oars,
-.river,
-.fire {
+.icon1,
+.icon2,
+.icon3 {
   padding-top: 10px;
   width: 80px;
 }
@@ -209,6 +209,8 @@ section h2 {
   color: black;
   padding-bottom: 15px;
 }
+
+
 
 /* Footer */
 footer {
@@ -315,6 +317,12 @@ footer p a:hover {
     margin-top: 25px;
   }
 
-
+  .icon1,
+  .icon2,
+  .icon3 {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
 
 }
