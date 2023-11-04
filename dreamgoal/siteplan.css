@@ -204,3 +204,35 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+/* Page 2 */
+
+
+
+.pic1 {
+  height: 200px;
+  width: 200px;
+  border-radius: 60%;
+}
+
+.pic2 {
+  height: 300px;
+  width: 630px;
+
+}
+
+.gal {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  height: 300px;
+  border-style: solid none solid none;
+}
+
+.gal p {
+  margin-top: 100px;
+}
